@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Dog Years in Human Years Calculator</title>
+   <meta name="description" content="How old is a dog in human years? Find out here, how old your dog is in human years. The age old question of dog and man found out at DogYearsinHumanYears.com.">
+   <meta name="keywords" content="dog, years, human,dog years in human years, dog years in human years, dog years to human years, aging in dogs, ageing, puppy, canine, old age, calculator, calculation, how old is a dog in human years at 1, how old is a dog in human years at 2, how old is a dog in human years at 3, how old is a dog in human years at 4, 18 in dog years to human years">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- CSS stuff  -->
+  <link rel="stylesheet" href="styles/index.processed.css">
+  <!--  JQUEWRY -->
+  <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+</head>
+
+<!--  HTML STUFF  -->
+
+<body>
+
+  <!-- Sidebar Navigation -->
+  <nav class="w3-sidebar w3-blue w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-blue w3-xxlarge w3-padding w3-display-topright w3-hover-yellow" style="padding:6px 24px">
+    <i class="fa fa-remove"></i>
+  </a>
+    <div class="w3-bar-block w3-center">
+      <a href="#history-dog-age" class="w3-bar-item w3-button w3-text-white w3-hover-yellow">History of Dog Age Formula</a>
+      <a href="#gallery-container" class="w3-bar-item w3-button w3-text-white w3-hover-yellow">Meet Chug</a>
+      <a href="#Creator" class="w3-bar-item w3-button w3-text-white w3-hover-yellow">Website Creator</a>
+    </div>
+  </nav>
+
+  <!-- !PAGE CONTENT! -->
+  <div class="content" style="max-width:1500px">
+
+    <!-- Header -->
+    <!-- First Page-->
+    <span class="w3-button w3-xxlarge w3-#7dc2af w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-clear"></div>
+    <header id="begin" class="page">
+      <h1><b>Dog Years in Human Years Calculator</b></h1>
+<!--       https://i.ibb.co/8zzqqXD/red-dog.png -->
+      <img class="logo"src="https://i.ibb.co/YQC2gKH/dog-years-age-human-years-history-4.png" alt="dog-years-human-years-logo" </img>
+      <p class='begin-text'><b>A calculator to help you find out how old your puppy/dog/bff would be as a person. Hint, it's not simply your dog's age multiplied by 7. <a href="#history-dog-age">Read the history to find out more.</a></b></p>
+    </header>
+    <div class='dog-age-calculator'>
+      <form class='calculator'>
+        <p>
+          <input type="text" id="years" placeholder="Dog's Age" />
+          <div class="button1">
+          <input type="button" id="button1" value="Submit" onclick="calculateDogAge()" />
+        </div>
+        </p>
+      </form>
+
+      <p id='text-calc'> My dog is <span id="wynik"> </span>
+      </p>
+    </div>
+
+    
+
+    
+<!--       <h2>History of Dog Age Calculator</h2> -->
+  <div id='history-dog-age'>
+   <img class="history-dog" src="https://i.ibb.co/QbgZ4Ns/dog-years-age-human-years-history-4.png" alt="dog-years-age-human-years-history-4" border="0"></>  
+  <p class='history-text'>
+      
+        If you own a dog, you've heard this rule: 1 year for Fido equals 7 years for you. Turns out, the math isn't that simple. Dogs mature more quickly than we do early on. If humans aged seven times slower than dogs, then many of us would be able to reproduce at age 7 and live to be 150. Obviously that's not the case. The reason that dogs can reach full sexual maturity after only a year is that our canine friends age faster during the first two years of their lives than humans do.  
+        <br></br>
+        Now, researchers say they have a new formula (see calculator above) to convert dog years
+        to human years—one with some actual science behind it.
+        <br></br>
+        The work is based on a relatively new concept in aging research: that chemical modifications to a person’s DNA over a lifetime create what is known as an epigenetic clock. Scientists have built a case that one such modification, the addition of methyl
+        groups to specific DNA sequences, tracks human biological age—that is, the toll that disease, poor lifestyle, and genetics take on our bodies. As a result, some groups have converted a person’s DNA methylation status to an age estimate—or even
+        a prediction of life expectancy (worrying ethicists, who say the data could be misused by forensic investigators and insurance companies).
+        <br></br>
+        The research team also used the rate of the methylation changes in dogs to match it to the human epigenetic clock, although the resulting dog age conversion is a bit more complex than “multiply by seven.” The new formula, which applies to dogs older than
+        one, says that a canine’s human age roughly equals 16 ln(dog age) + 31. (That’s the natural logarithm of the dog’s real age, multiplied by 16, with 31 added to the total.)
+
+  </p>
+    </div>
+<div id="gallery-container" class="gallery-container">
+
+	<h2 class="gallery-heading">Meet Chug the Pug!<span>The Dog Calculator Mascot</span></h2>
+ 
+	<div class="gallery">
+
+		<div class="gallery-item">
+       
+			<img class="gallery-image" src="https://i.ibb.co/GCjVQRS/dog-cute-age-human-years-1.jpg" alt="dog-cute-age-human-years-1">
+		</div>
+		<div class="gallery-item">
+			<img class="gallery-image" src="https://i.ibb.co/PNsc2zD/dog-cute-age-human-years-2.jpg" alt="dog-cute-age-human-years-2">
+		</div>
+
+		<div class="gallery-item">
+			<img class="gallery-image" src="https://i.ibb.co/6ZjNmLb/dog-cute-age-human-years-3.jpg" alt="dog-cute-age-human-years-3">
+		</div>
+<p class="chug-text">Meet Chug the pug, the Dog Years in Human Years Calculator mascot! To know Chug is a similar feeling to knowing Gandhi. 
+   <br></br>
+His leadership, determination, and keen ability to chase a squirrel, have inspired millions of followers. We could all benefit from being a little more like Chug. 
+<br></br>
+Chug’s hobbies include hanging with the boys, spoon collecting, rolling over for a belly rub, and smelling the same boys’ butts. Chug enters the board room of a fortune 500 company with the same confidence and comfort he brings to the local watering hole with the boys (butt smelling optional). 
+<br></br>
+Chug is excited for you to check out the website and use the Dog Years in Human Years Calculator! Please enjoy Chug’s photos below, he can be a bit of diva, so we had to include a lot of photos. 
+
+</p>
+		<div class="gallery-item">
+			<img class="gallery-image" src="https://i.ibb.co/2tYzMkQ/dog-cute-age-human-years-4.jpg" alt="dog-cute-age-human-years-4">
+		</div>
+
+		<div class="gallery-item">
+			<img class="gallery-image" src="https://i.ibb.co/YLHfpVq/dog-cute-age-human-years-7.jpg" alt="dog-cute-age-human-years-7">
+		</div>
+
+		<div class="gallery-item">
+			<img class="gallery-image" src="https://i.ibb.co/2jrH4w6/dog-cute-age-human-years-6.jpg" alt="dog-cute-age-human-years-6">
+		</div>
+
+	</div>
+
+</div>
+<!-- Creator section -->
+ <div id='Creator'>
+	<h2 class="gallery-heading">The Website Creator<span>Read about him, he's okay sometimes!</span></h2>
+ <img class="nick-terzian" src="https://i.ibb.co/C6SxLCD/Nick-Tercian-2-B.jpg" alt="dog-years-age-human-years-history-4" border="0"></>  
+  <p class='history-text'>
+      
+Hi, my name is Nick Terzian and I am the creator of DogYearsinHumanYears.com. I first discovered my passion for dogs when I was six years old and got my first dog. She was a black Labrador named Jordan (after Michael Jordan).
+<br></br>
+I kept wondering, “if my dog was a human, how old would she be?” Is she an old lady? Is she middle aged? I had no idea and the thought was keeping me up at night. So, from that day on, I set out to learn how old Jordan really was in human years.
+<br></br>
+After extensive research, I learned that a dog’s age is not simply a multiple of seven. I felt lied to and decided I had a life mission to spread the message of dog years in human years to the world.
+<br></br>
+This website has been created from passion, sweat, blood, tears, and to be honest, a lot more tears. 
+<br></br>
+When I am not creating weird dog websites, I work as a digital marketing professional in New York City.  My work focuses web design, search engine optimization, and channel marketing. Please feel free to contact me for work inquires, web development, or just to talk about dog years in human years. I can be reached by email at <a href = "mailto:Nicolas.a.terzian@gmail.com">Nicolas.a.terzian@gmail.com</a> or you can connect with me on <a href = "https://www.linkedin.com/in/nicolasterzian/">LinkedIn</a>. Have a great day!
+
+  </p>
+    </div>
+    <!-- End Page Content -->
+  </div>
+
+   <!-- Site footer -->
+    <footer class="dog-years-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>HEY! You reached the end of the page. Here is some repetitive information</h6>
+            <p class="text-justify">Dog years in human years is your go to solution for finding out how old your dog is in seconds. Feel free to look around the website more and see what surprises you find.</p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Parts of the Page, check them out!</h6>
+            <ul class="footer-links">
+              <li><a href="#begin">Dog Years in Human Years Calculator</a></li>
+              <li><a href="#history-dog-age">History of Dog Age Formula</a></li>
+              <li><a href="#gallery-container">Meet Chug</a></li>
+              <li><a href="#Creator">Website Creator</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">I have no Copyright &copy; 2020 All Rights Are Not Reserved by 
+         <a href="#">Me Nick Terzian</a>.
+            </p>
+          </div>
+          </div>
+        </div>
+      </div>
+</footer>
+
+<script src="scripts/index.js" type="text/javascript"></script>
+</body>
+
+</html>
