@@ -210,6 +210,9 @@ p#text-calc {
 }
 
 @media (min-width: 1023px) {
+  .history-dog {
+    width: 85%;
+  }
   .nick-terzian {
     float: left;
   }
