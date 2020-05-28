@@ -7,6 +7,7 @@ body {
   color: #3a4650;
   background-color: #ececec;
   text-align: center;
+  margin: 0 auto
 }
 header {
   text-align: center;
@@ -39,8 +40,10 @@ form.calculator {
   align-items: center;
   justify-content: center;
 }
+
+
 input {
-  width: 8em;
+  width: 9em;
   text-align: center;
   border: none;
   border: 1px solid #999;

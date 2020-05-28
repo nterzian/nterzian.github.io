@@ -30,7 +30,7 @@ function moveForward() {
   var zindex = window
     .getComputedStyle(section, null)
     .getPropertyValue("z-index");
-  section.className = "hide";
+  selsion.className = "hide";
   counter += 1;
 }
 // Dog Calculator
@@ -39,10 +39,12 @@ function calculateDogAge() {
    var myAge = document.getElementById("years").value;
   if (myAge == "") {
     alert("HEY SILLY! You forgot to put a number.");
-  } else {
+  } else if (myAge < 1) {
+    alert("Our bad, this calculator only works for dogs older than 1.");
+  }  else {
   var dogAge = Math.log(myAge) * 16 + 31;
   document.getElementById("wynik").innerHTML =
-    Math.round(dogAge) + " years old in human years.";
+   " My Dog is " + Math.round(dogAge) + " years old in human years.";
   
          }
   }
